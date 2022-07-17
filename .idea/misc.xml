@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable-v24/bg_rounded_top.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable-v24/bg_strip_round.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable-v24/ic_baseline_more_vert_24.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/bg_entre.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/bg_item.xml" value="0.2295" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/bg_item_offer.xml" value="0.2885" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/bg_shadow_up_to_down.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/btn_bg.xml" value="0.1045" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/ctr_bg.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/ic_round_search_24.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/input_bg.xml" value="0.1045" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/pop_up_bg.xml" value="0.1045" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/progress_back.xml" value="0.114" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/round_drawable.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/drawable/search_bg.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/font/poppins_medium.xml" value="0.35462962962962963" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout-sw600dp/activity_home.xml" value="0.11197916666666667" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_ajout_offer.xml" value="0.21217105263157895" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_all_offre.xml" value="0.40212632895559725" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_consultation.xml" value="0.17" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_edit_entreprise.xml" value="0.25" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_edit_offer.xml" value="0.21217105263157895" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_home.xml" value="0.330385344283007" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_home_entreprise.xml" value="0.30554239696826146" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_new_codidat.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_new_condidat.xml" value="0.18" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_new_entreprise.xml" value="0.27680798004987534" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_newentreprise.xml" value="1.0" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/activity_one_offer.xml" value="0.1" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/item_consultation.xml" value="0.33" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/item_job_marked.xml" value="0.16220988900100908" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/item_localisation.xml" value="0.11018518518518519" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/item_offre.xml" value="0.22" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/new_condidat.xml" value="0.22" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/one_offer_editer.xml" value="0.18" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/pop_up_new_account.xml" value="0.33" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/layout/titre_offer_item.xml" value="0.25" />
+        <entry key="..\:/PFE/TuniJob/app/src/main/res/menu/search.xml" value="0.10273972602739725" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

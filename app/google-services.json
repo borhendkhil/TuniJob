@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "613159049507",
+    "firebase_url": "https://tunijob-de928-default-rtdb.firebaseio.com",
+    "project_id": "tunijob-de928",
+    "storage_bucket": "tunijob-de928.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613159049507:android:1761d01c6c7011078d5496",
+        "android_client_info": {
+          "package_name": "com.example.tunijob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHZg-gkx56Tq8UwjVAi1ZoDD0y32k_fqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

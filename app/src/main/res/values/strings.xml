@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TuniJob</string>
+    <string name="login">se connecter</string>
+    <string name="forget_password">Mot de passe oublié</string>
+    <string name="password">Mot de passe</string>
+    <string name="nameuser">Nom de utilisateur</string>
+    <string name="enregistre">Enregistrer</string>
+    <string name="email">Email</string>
+    <string name="NomE">Nom d\'Entreprise</string>
+    <string name="tel">Numéro de téléphone</string>
+    <string name="cpassword">Confirmation de mot de passe</string>
+    <string name="description">Description</string>
+    <string name="titreNC">Créer un nouveau candidat</string>
+    <string name="titreNE">Créer un nouveau entreprise</string>
+    <string name="NP">Nom et Prénom</string>
+    <string-array name="adress">
+        <item>select votre adresse</item>
+        <item>Ariana</item>
+        <item>Béja</item>
+        <item>Ben Arous</item>
+        <item>Bizerte</item>
+        <item>Gabès</item>
+        <item>Gafsa</item>
+        <item>Jendouba</item>
+        <item>Kairouan</item>
+        <item>Kébili</item>
+        <item>Kasserine</item>
+        <item>Le Kef</item>
+        <item>Mahdia</item>
+        <item>La Manouba</item>
+        <item>Médenine</item>
+        <item>Monastir</item>
+        <item>Nabeul</item>
+        <item>Sfax</item>
+        <item>Sidi Bouzid</item>
+        <item>Siliana</item>
+        <item>ousse</item>
+        <item>Tataouine</item>
+        <item>Tozeur</item>
+        <item>Tunis</item>
+        <item>Zaghouan</item>
+    </string-array>
+</resources>

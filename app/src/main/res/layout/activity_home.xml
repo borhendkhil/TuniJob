@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:background="@color/blue_250"
+
+    >
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+
+            style="@style/Theme.TuniJob"
+            android:fitsSystemWindows="true"
+            >
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapse"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:collapsedTitleTextAppearance="@style/collapsedTitleStyle"
+                app:contentScrim="?attr/colorPrimary"
+                app:expandedTitleMarginBottom="26dp"
+                app:expandedTitleMarginStart="26dp"
+                app:expandedTitleTextAppearance="@style/expandedTitleStyle"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+                app:title="Chercher votre travaille"
+                app:titleEnabled="true"
+                android:background="@drawable/bg"
+                >
+                <TextView
+                    android:id="@+id/welcomeText"
+                    android:text="Salut, Bienvenue à nouveau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_toStartOf="@id/notif"/>
+
+
+                <EditText
+                    android:drawablePadding="8dp"
+                    android:id="@+id/searchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_search_24"
+                    android:ems="10"
+                    android:hint="Recherche"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/search_bg"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/poppins_medium"
+
+
+                    app:queryBackground="@android:color/transparent"
+                    app:queryHint="Recherche" />
+
+                <ImageView
+                    android:id="@+id/logoout"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/logout" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:fitsSystemWindows="true"
+                    android:theme="@style/Theme.TuniJob.Toolbar"
+                    app:background="@android:color/transparent"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/Theme.TuniJob.PopupOverlay"
+                    app:titleTextColor="@color/white" />
+
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipeRefresh"
+        android:background="@drawable/input_bg"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fillViewport="true">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/markedTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="21dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Liste des offres"
+                        android:textColor="@color/gray_600"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/showAllMarked"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="21dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:fontFamily="@font/poppins_medium"
+                        android:minHeight="48dp"
+                        android:text="Afficher Tout"
+                        android:textColor="@color/gray_300"
+                        android:textSize="14dp"
+                        android:visibility="gone"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerviewMarker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/markedTitle"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="11dp"
+
+
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="10dp" />
+
+
+
+                </RelativeLayout>
+
+
+            </androidx.core.widget.NestedScrollView>
+
+            <ImageView
+                android:id="@+id/shadow"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/bg_shadow_up_to_down"
+                android:visibility="visible" />
+
+            <ImageView
+                android:background="@drawable/bg_strip_round"
+                android:layout_width="40dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
